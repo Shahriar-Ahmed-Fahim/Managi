@@ -253,7 +253,7 @@ Banner CSS End
     padding: 100px 100px;
 }
 
-.container h2 {
+#management .container h2 {
     color: #232323;
     text-align: center;
     font-family: "Space Grotesk";
@@ -311,7 +311,7 @@ Banner CSS End
 
 /* ----Others Section---- */
 #others {
-    padding-top: 200px;
+    padding-top: 100px;
     padding-bottom: 90px;
 }
 
@@ -372,3 +372,133 @@ Banner CSS End
     line-height: 30.6px;
     letter-spacing: -0.81px;
 }
+
+/* ==================
+Testimonial CSS Start
+================== */
+#testimonial{
+    padding: 100px 0 130px;
+    background: #F9FAFF;
+}
+#testimonial .top{
+    display: grid;
+    grid-template-columns: 558px 170px;
+    justify-content: space-between;
+    align-items: end;
+    margin-bottom: 64px;
+}
+#testimonial .top .content h2{
+    color: #232323;
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -2.4px;
+    position: relative;
+}
+#testimonial .top .content h2 img{
+    position: absolute;
+    width: 88.5px;
+    top: 43px;
+    left: 208px;
+}
+#testimonial .top .content p{
+    color: #232323;
+    font-family: "Inter";
+    font-size: 18px;
+    line-height: 170%;
+    letter-spacing: -0.81px;
+    margin-top: 32px;
+}
+#testimonial .top .navigator{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: end;
+    column-gap: 24px;
+}
+#testimonial .top .navigator i{
+    width: 72px;
+    height: 72px;
+    line-height: 72px;
+    text-align: center;
+    border-radius: 50%;
+    background: #E5EAF5;
+    font-size: 24px;
+    color: #757575;
+}
+#testimonial .top .navigator i:hover{
+    background: #325B97;
+    color: #fff;
+}
+#testimonial .bottom{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    column-gap: 24px;
+}
+#testimonial .bottom .review-item{
+    border-radius: 32px;
+    background: #FFF;
+    padding: 48px;
+}
+#testimonial .bottom .review-item .title{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 16px;
+    align-items: center;
+    justify-content: start;
+}
+#testimonial .bottom .review-item .title strong{
+    color: #000;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -1.08px;
+}
+#testimonial .bottom .review-item .title img{
+    max-width: 122px;
+}
+#testimonial .bottom .review-item p{
+    color: #757575;
+    font-family: "Inter";
+    font-size: 18px;
+    font-style: normal;
+    line-height: 170%;
+    letter-spacing: -0.81px;
+    padding: 24px 0;
+    border-bottom: 1px solid rgba(35, 35, 35, 0.16);
+    margin-bottom: 24px;
+}
+#testimonial .bottom .review-item .author-box{
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+}
+#testimonial .bottom .review-item .author-box .author-img{
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: #D9D9D9;
+}
+#testimonial .bottom .review-item .info h3{
+    color: #232323;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 170%;
+    letter-spacing: -0.81px;
+}
+#testimonial .bottom .review-item .info span{
+    color: #757575;
+    font-family: "Inter";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.81px;
+}
+/* ==================
+Testimonial CSS End
+================== */
