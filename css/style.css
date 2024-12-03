@@ -9,9 +9,10 @@ General CSS Start
     transition: all 300ms;
 }
 
-img{
+img {
     width: 100%;
 }
+
 a {
     text-decoration: none;
     line-height: 1.2em;
@@ -45,45 +46,53 @@ p {
     max-width: 1200px;
     margin: 0 auto;
 }
+
 /* ==================
 General CSS End
 ================== */
 /* ==================
 Nav CSS Start
 ================== */
-nav{
+nav {
     padding: 23px 0;
     margin-bottom: -120px;
     position: relative;
     z-index: 5;
 }
-nav .container{
+
+nav .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
 }
-nav ul{
+
+nav ul {
     display: grid;
     grid-template-columns: auto auto auto auto;
     justify-content: start;
     column-gap: 60px;
 }
-nav ul li{
+
+nav ul li {
     font: "Inter", sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #fff;
 }
-nav .logo{
+
+nav .logo {
     justify-self: center;
 }
-nav img{
+
+nav img {
     height: 32px;
 }
-nav .button{
+
+nav .button {
     justify-self: end;
 }
-nav .button a{
+
+nav .button a {
     display: inline-block;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -93,28 +102,32 @@ nav .button a{
     border-radius: 30px;
     color: #fff;
 }
-nav .button a:hover{
+
+nav .button a:hover {
     border: 1px solid #fff;
 }
+
 /* ==================
 Nav CSS End
 ================== */
 /* ==================
 Banner CSS Start
 ================== */
-#banner{
+#banner {
     padding: 210px 0 86px;
     background: linear-gradient(112deg, #394792 -0.65%, #070F39 107.76%);
     position: relative;
     overflow-x: hidden;
 }
-#banner .container{
+
+#banner .container {
     display: grid;
     grid-template-columns: 670px calc(100% - 670px);
     position: relative;
     z-index: 2;
 }
-#banner .content h1{
+
+#banner .content h1 {
     color: #FFF;
     font-family: "Space Grotesk";
     font-size: 64px;
@@ -123,20 +136,23 @@ Banner CSS Start
     letter-spacing: -3.2px;
     position: relative;
 }
-#banner .content > h1 img:first-of-type{
+
+#banner .content>h1 img:first-of-type {
     width: 222px;
     position: absolute;
     bottom: -10px;
     right: 7px;
 }
-#banner .content > h1 img:last-of-type{
+
+#banner .content>h1 img:last-of-type {
     width: 91px;
     position: absolute;
     top: 50%;
     right: 0;
     transform: translate(100%, -50%);
 }
-#banner .content > p{
+
+#banner .content>p {
     color: rgba(255, 255, 255, 0.8);
     font-family: "Inter";
     font-size: 18px;
@@ -146,13 +162,15 @@ Banner CSS Start
     width: 560px;
     margin: 32px 0 40px;
 }
-#banner .content .button{
+
+#banner .content .button {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: start;
     column-gap: 24px;
 }
-#banner .content .button a{
+
+#banner .content .button a {
     border-radius: 30px;
     border: 1px solid rgba(255, 255, 255, 0.40);
     color: #FFF;
@@ -162,23 +180,27 @@ Banner CSS Start
     letter-spacing: -0.81px;
     padding: 18px 32px;
 }
-#banner .content .button a:hover{
+
+#banner .content .button a:hover {
     background: #fff;
     border-color: #fff;
     box-shadow: 0px 5px 20px 0px rgba(255, 255, 255, 0.4);
     color: #394792;
 }
-#banner .content .stats{
+
+#banner .content .stats {
     display: grid;
     grid-template-columns: 87px 87px 92px;
     justify-content: start;
     column-gap: 80px;
     margin-top: 60px;
 }
-#banner .content .stats .box{
+
+#banner .content .stats .box {
     position: relative;
 }
-#banner .content .stats .box:not(:last-child)::before{
+
+#banner .content .stats .box:not(:last-child)::before {
     position: absolute;
     right: -40px;
     top: 50%;
@@ -188,14 +210,16 @@ Banner CSS Start
     height: 62.5px;
     background: rgba(255, 255, 255, 0.16);
 }
-#banner .content .stats .box span{
+
+#banner .content .stats .box span {
     color: #FFF;
     font-family: "Space Grotesk";
     font-size: 32px;
     font-weight: 500;
     letter-spacing: -1.28px;
 }
-#banner .content .stats .box p{
+
+#banner .content .stats .box p {
     color: #FFF;
     font-family: "Inter";
     font-size: 18px;
@@ -203,12 +227,14 @@ Banner CSS Start
     letter-spacing: -0.54px;
     margin-top: 8px;
 }
-#banner .image{
+
+#banner .image {
     display: block;
     margin-right: -70px;
     align-self: end;
 }
-#banner > .image{
+
+#banner>.image {
     width: 460px;
     height: 668px;
     position: absolute;
@@ -217,15 +243,17 @@ Banner CSS Start
     border-radius: 30px 0px 0px 0px;
     background: #D9D9D9;
 }
+
 /* ==================
 Banner CSS End
 ================== */
 
 /* =================management start here========== */
-#management{
+#management {
     padding: 100px 100px;
 }
-.container h2{
+
+.container h2 {
     color: #232323;
     text-align: center;
     font-family: "Space Grotesk";
@@ -236,24 +264,27 @@ Banner CSS End
     letter-spacing: -2.4px;
     position: relative;
 }
-.container h2 .shape{
+
+.container h2 .shape {
     position: absolute;
     top: 44px;
     left: 744px;
     width: 162px;
     height: 30px;
 }
-.management_wrapper{
+
+.management_wrapper {
     display: grid;
-    grid-template-columns: repeat(3,379px);
+    grid-template-columns: repeat(3, 379px);
     gap: 32px;
 }
-.management_item img{
+
+.management_item img {
     width: 100%;
     margin-top: 64px;
 }
 
-.management_item h3{
+.management_item h3 {
     color: #232323;
     font-family: "Space Grotesk";
     font-size: 24px;
@@ -263,7 +294,8 @@ Banner CSS End
     letter-spacing: -1.2px;
     margin-top: 24px;
 }
-.management_item p{
+
+.management_item p {
     color: #757575;
     font-family: Inter;
     font-size: 18px;
@@ -274,5 +306,69 @@ Banner CSS End
     width: 379px;
     margin-top: 16px;
 }
+
 /* =================management end here============ */
 
+/* ----Others Section---- */
+#others {
+    padding-top: 200px;
+    padding-bottom: 90px;
+}
+
+#others .wrapper {
+    display: grid;
+    grid-template-columns: 592px 472px;
+    column-gap: 117px;
+}
+
+#others img {
+    width: 100%;
+}
+
+.others-info h2 {
+    font-size: 44px;
+    font-weight: 500;
+    font-family: "Space Grotesk", serif;
+    line-height: 67.2px;
+    margin-bottom: 24px;
+    color: #232323;
+}
+
+.others-info p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30.6px;
+    color: #232323;
+    margin-bottom: 32px;
+}
+
+#others .card {
+    border-radius: 16px;
+    border: 1px solid rgba(35, 35, 35, 0.16);
+    background: #FFF;
+    display: grid;
+    grid-template-columns: 44px auto;
+    justify-content: start;
+    align-items: center;
+    column-gap: 16px;
+    padding: 16px 0 16px 16px;
+    margin-bottom: 24px;
+}
+
+#others .card:last-child {
+    margin-bottom: 0;
+}
+
+#others .card img {
+    width: 44px;
+}
+
+#others .card strong {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30.6px;
+    letter-spacing: -0.81px;
+}
