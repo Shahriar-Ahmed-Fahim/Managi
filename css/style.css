@@ -220,3 +220,59 @@ Banner CSS Start
 /* ==================
 Banner CSS End
 ================== */
+
+/* =================management start here========== */
+#management{
+    padding: 100px 100px;
+}
+.container h2{
+    color: #232323;
+    text-align: center;
+    font-family: "Space Grotesk";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -2.4px;
+    position: relative;
+}
+.container h2 .shape{
+    position: absolute;
+    top: 44px;
+    left: 744px;
+    width: 162px;
+    height: 30px;
+}
+.management_wrapper{
+    display: grid;
+    grid-template-columns: repeat(3,379px);
+    gap: 32px;
+}
+.management_item img{
+    width: 100%;
+    margin-top: 64px;
+}
+
+.management_item h3{
+    color: #232323;
+    font-family: "Space Grotesk";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+    letter-spacing: -1.2px;
+    margin-top: 24px;
+}
+.management_item p{
+    color: #757575;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 170%;
+    letter-spacing: -0.9px;
+    width: 379px;
+    margin-top: 16px;
+}
+/* =================management end here============ */
+
